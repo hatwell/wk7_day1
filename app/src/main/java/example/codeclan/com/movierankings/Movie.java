@@ -28,7 +28,12 @@ public class Movie {
         return this.ranking;
     }
 
-    public void setRanking(int ranking) {
+    public void setRanking(Integer ranking) {
         this.ranking = ranking;
+    }
+
+    @Override
+    public String toString(){
+        return "Title: "+ this.title + " Genre: " + this.genre + " Ranking: " + this.ranking;
     }
 }

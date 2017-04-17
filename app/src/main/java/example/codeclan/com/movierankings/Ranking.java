@@ -1,5 +1,6 @@
 package example.codeclan.com.movierankings;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -8,5 +9,14 @@ import java.util.HashMap;
  */
 
 public class Ranking {
-    HashMap<String, Integer> movieRankings;
+    private Movie[] movies;
+
+    public Ranking(){
+        this.movies = movies;
+    }
+
+    public void addMovie(Movie movie){
+
+    }
+
 }
