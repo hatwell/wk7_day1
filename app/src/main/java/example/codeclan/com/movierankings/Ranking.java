@@ -8,5 +8,5 @@ import java.util.HashMap;
  */
 
 public class Ranking {
-    HashMap<String, int> movieRankings;
+    HashMap<String, Integer> movieRankings;
 }

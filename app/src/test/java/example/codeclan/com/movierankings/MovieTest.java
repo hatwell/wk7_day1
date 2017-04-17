@@ -18,7 +18,17 @@ public class MovieTest {
     }
 
     @Test
-    public void movieHasTitle(){
+    public void movieHasTitleTest(){
         assertEquals("Clueless", movie.getTitle());
+    }
+
+    @Test
+    public void movieHasGenreTest(){
+        assertEquals("Classics", movie.getGenre());
+    }
+
+    @Test
+    public void rankingStartsNull(){
+        assertEquals(null, movie.getRanking());
     }
 }
