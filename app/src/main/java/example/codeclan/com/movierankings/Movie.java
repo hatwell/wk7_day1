@@ -32,8 +32,14 @@ public class Movie {
         this.ranking = ranking;
     }
 
+    public void addToRanking(){
+        int rankingIndex = this.ranking - 1;
+        Ranking ranking = new Ranking();
+    }
+
+
     @Override
     public String toString(){
-        return "Title: "+ this.title + " Genre: " + this.genre + " Ranking: " + this.ranking;
+        return "Title: "+ this.title + " || Genre: " + this.genre + " || Ranking: " + this.ranking;
     }
 }

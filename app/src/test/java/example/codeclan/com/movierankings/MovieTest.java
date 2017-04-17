@@ -10,7 +10,7 @@ import static junit.framework.Assert.assertEquals;
  */
 
 public class MovieTest {
-    Movie movie;
+    Movie movie;ranking.getMovieWithRanking(6);
 
     @Before
     public void before(){
@@ -38,4 +38,12 @@ public class MovieTest {
         int ranking = movie.getRanking();
         assertEquals(1, ranking);
     }
+
+    @Test
+    public void stringPrintsOutTest(){
+        movie.setRanking(1);
+        assertEquals("Title: Clueless || Genre: Classics || Ranking: 1", movie.toString());
+    }
+
+
 }
