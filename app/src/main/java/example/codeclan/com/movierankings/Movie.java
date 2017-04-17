@@ -27,4 +27,8 @@ public class Movie {
     public Integer getRanking() {
         return this.ranking;
     }
+
+    public void setRanking(int ranking) {
+        this.ranking = ranking;
+    }
 }

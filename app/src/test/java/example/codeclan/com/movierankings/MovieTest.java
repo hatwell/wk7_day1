@@ -31,4 +31,10 @@ public class MovieTest {
     public void rankingStartsNull(){
         assertEquals(null, movie.getRanking());
     }
+
+    @Test
+    public void rankingCanBeSet(){
+        movie.setRanking(1);
+        assertEquals(1, movie.getRanking());
+    }
 }
